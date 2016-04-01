@@ -29,7 +29,7 @@ public class Task7 extends JFrame {
 
     public Task7(final MainWindow mainWindow) {
 
-        super("GeoTask : Задача 5");
+        super("GeoTask : Задача 7");
 
         setContentPane(rootPanel);
         pack();
