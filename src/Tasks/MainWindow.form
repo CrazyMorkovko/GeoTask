@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Tasks.MainWindow">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="768" height="411"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="GeoTask: Список задач"/>
+    <children>
+      <component id="6052d" class="javax.swing.JButton" binding="task2Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ПРЯМАЯ УГЛОВАЯ ЗАСЕЧКА"/>
+        </properties>
+      </component>
+      <component id="bf7e0" class="javax.swing.JButton" binding="task3Button" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ОБРАТНАЯ ГЕОДЕЗИЧЕСКАЯ ЗАСЕЧКА"/>
+        </properties>
+      </component>
+      <component id="d1312" class="javax.swing.JButton" binding="task4Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ТЕОДОЛИТНЫЙ ХОД"/>
+        </properties>
+      </component>
+      <component id="b5345" class="javax.swing.JButton" binding="task5Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="РЕШЕНИЕ СЛАУ МЕТОДОМ ИТЕРАЦИЙ (МЕТОД ЗЕЙДЕЛЯ)"/>
+        </properties>
+      </component>
+      <component id="f52b6" class="javax.swing.JButton" binding="task6Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="РЕШЕНИЕ СЛАУ МЕТОДОМ ГАУССА"/>
+        </properties>
+      </component>
+      <component id="b45d7" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ca9cb" class="javax.swing.JButton" binding="task7Button" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ЗАДАЧА ВЫЧИСЛЕНИЯ ПЛОЩАДИ УЧАСТКА"/>
+        </properties>
+      </component>
+      <component id="a432d" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Выход"/>
+        </properties>
+      </component>
+      <component id="5050d" class="javax.swing.JButton" binding="task1Button" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ОБРАТНАЯ ГЕОДЕЗИЧЕСКАЯ ЗАДАЧА"/>
+        </properties>
+      </component>
+      <vspacer id="3ac88">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
